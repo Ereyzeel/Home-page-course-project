@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Courier New;
+}
+
+html,body{
+	height: 100%;
+}
+
+ /*     NO RESPONSIVE (por agora)    */
+
+/*@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: Courier New;
+ }
+*/
+
+/*  USANDO NA MAIORIA DAS DIVS */
+
+ .center{
+	width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+ }
+
+ .clear{
+	clear: both;
+ }
+
+/*  HEADER / MENU */
+
+ .header{
+	width: 100%;
+	height: 60px;
+	background-color: #956ad9;	
+	min-width: 1280px;/*pra não ficar quebrado quando
+	redimensionar*/
+ }
+ /* LOGO HEADER */
+
+ .header img{
+	margin: 19px;
+ }
+
+/*  LISTA  */
+
+ .container-banner{
+	width: 100%;
+	height: 557px;
+	background-image:url('../images/header_bg.png') ;
+	background-size:cover ;
+	background-position: center;
+	min-width: 1280px;/*pra não ficar quebrado quando
+	redimensionar sem responsivo*/
+ }
+
+/*  BANNER BACKGROUND */
+
+ .container-banner > .center{
+	height: 100%;
+
+ }
+
+/*  CAIXINHA ONDE VAI O FORMULÁRIO */
+
+ .form{
+		padding:15px ;
+		width: 400px;
+		height: calc(100% + 30px);
+		background-color: white;
+		float:right;
+		margin-right: 60px ;
+		position: relative;
+		top: -15px;/*metade de 30px*/
+		border: 10px solid rgba(103, 68, 158, 0.6);
+		background-clip: padding-box; /*AJEITANDO O FUNDO
+		DA MARGEM DA BOX BASEANDO NO PADDING DO FORM*/
+
+ }
+
+/* 	OQUE ELE COLOCOU (no form dele) 
+
+ .form{
+	padding: 10px;
+	width: 400px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top: -15px;
+	border-width: 12px;
+	border-color: rgba(120, 120, 120, 0.5);
+	border-style: solid;
+	background-color: white;
+	background-clip: padding-box;
+ }
+*/
+
+/*  TEXTO ACIMA DO FORM */
+
+ .form h2{
+	color: #36115c;
+	font-weight: normal;
+	font-size: 25px;
+ }
+
+/*  CONTAINER DE CADA TÓPICO  */
+
+ .input-container{
+	margin-top: 20px;
+ }
+
+/*  ESTILO DO TEXTO DO FORM */
+
+ .input-container span{
+	display: inline-block;
+	width: 100%;
+	font-size:17px ;
+	color: #9761cf;
+ }
+
+/*  CAIXA PARA ESCREVER */
+
+ .input-container input[type=text] , input[type=E-mail]{
+	width: 334px;
+	height: 55px;
+	border: 1px solid black;
+	outline-style: none; /*tirar a borda preta 
+	quando clicar no input*/
+	margin-top: 8px;
+ }
+
+/*  BOTÃO ENVIAR  */
+
+ .form .input-submit{
+	text-align: center;
+ } /*se não tiver PONTO nesse ele não funciona, nsei*/
+
+ /* ESTILIZANDO O BOTÃO */
+ 
+ .form input[type=submit]{
+    /*outline-style: none;
+    border-style: none;*/
+    background-color: #A062E3;
+    display: inline-block;
+    color: #602e94;
+    font-size: 31px;
+    width: 280px;
+    height: 56px;
+    border:none;
+    border-radius:5px ; 
+    cursor: pointer; /* mudaou o cursor */
+ }
+
+/*  LISTA (CAIXINHA DO LADO) */
+
+ .container-list{
+	width: 619px;
+	height: 270px;
+	float: left;
+	background-color: rgba(149, 106, 217, 0.6);
+	margin-top: 90px;
+	padding: 30px;
+ }
+
+ /*  POR PADRÃO A LISTA FICA PRA FORA (AJEITANDO ABAIXO) */
+
+ .container-list ul{
+	list-style-position: inside;	
+ }
+
+ .container-list ul li{
+	color: white;
+	margin-top: 18px;
+ }
+
+/*  PARÁGRAFO SEÇÃO2 */
+
+ .container-2{
+	padding: 40px 0;
+	background-color:#a062e3;
+	text-align: center;
+	min-width: 1280px;/*pra não ficar quebrado quando
+	redimensionar sem responsivo*/
+ }
+
+ .container-2 h2{
+	font-weight: normal;
+ }
+
+ .container-2 p{
+	width: 698px;
+	margin:15px 0 ;
+	display: inline-block; /*senão ele fica no canto
+	do padding*/
+	text-align: justify; /* fica retinho nos cantos */
+ }
+
+/*  SETA PARA BAIXO */
+
+ .arrow{
+	width:50px;
+	height: 50px;
+	background-image: url('../images/arrow.png');
+	background-size: 100% 100%;
+	position: relative;
+	top: 65px; /*alinhei na metade linha */
+	left: 50% ;/*centro + margin-left: -20px;*/
+	margin-left: -20px;
+ }
+
+/*  TRÊS ÍCONES */
+
+ .section-1{
+	padding:90px 0;
+ }
+
+ .section-1 h2{
+	text-align: center;
+	color: #26274f;
+ }
+
+ .container-section{
+	margin-top: 40px;
+	text-align: center;
+ }
+
+ .container-single{
+	float: left;
+	width: 33.3%;/*não funciona com div center por causa do padrão
+	de 1280px*/
+	padding: 30px;
+ }
+
+ .container-single p{
+	padding: 10px 25px;
+	text-align: justify;
+	color:#26274f ;
+ }
+
+ .container-single img{
+	width: 70px;
+ }
+
+/*  FOOTER */
+
+ .rodape{
+ 	/*clear: both; (quando usa o float colocar isso)*/
+ 	padding: 30px 0;
+ 	border-top: 4px solid #a062e3;
+ 	text-align: center;
+ 	color: #472663;
+ }
+
+ .div footer , p{
+ 	margin-top: 5px;
+ } 
+
+
+
