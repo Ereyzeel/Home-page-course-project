@@ -20,9 +20,9 @@ html,body{
 /*  USANDO NA MAIORIA DAS DIVS */
 
  .center{
-	width: 1280px;
+	max-width: 1280px;
+	width: 100%;
 	margin: 0 auto;
-	padding: 0 2%;
  }
 
  .clear{
@@ -34,9 +34,8 @@ html,body{
  .header{
 	width: 100%;
 	height: 60px;
+	padding: 0 2% ;
 	background-color: #956ad9;	
-	min-width: 1280px;/*pra não ficar quebrado quando
-	redimensionar*/
  }
  /* LOGO HEADER */
 
@@ -49,18 +48,16 @@ html,body{
  .container-banner{
 	width: 100%;
 	height: 557px;
+	padding: 0 2%;
 	background-image:url('../images/header_bg.png') ;
 	background-size:cover ;
 	background-position: center;
-	min-width: 1280px;/*pra não ficar quebrado quando
-	redimensionar sem responsivo*/
  }
 
 /*  BANNER BACKGROUND */
 
  .container-banner > .center{
 	height: 100%;
-
  }
 
 /*  CAIXINHA ONDE VAI O FORMULÁRIO */
@@ -178,11 +175,10 @@ html,body{
 /*  PARÁGRAFO SEÇÃO2 */
 
  .container-2{
-	padding: 40px 0;
+	padding: 40px 2%;
 	background-color:#a062e3;
 	text-align: center;
-	min-width: 1280px;/*pra não ficar quebrado quando
-	redimensionar sem responsivo*/
+	
  }
 
  .container-2 h2{
@@ -190,7 +186,8 @@ html,body{
  }
 
  .container-2 p{
-	width: 698px;
+	width: 100%;
+	max-width: 768px;
 	margin:15px 0 ;
 	display: inline-block; /*senão ele fica no canto
 	do padding*/
@@ -213,7 +210,8 @@ html,body{
 /*  TRÊS ÍCONES */
 
  .section-1{
-	padding:90px 0;
+	padding:90px 2%;
+
  }
 
  .section-1 h2{
@@ -228,7 +226,7 @@ html,body{
 
  .container-single{
 	float: left;
-	width: 33.3%;/*não funciona com div center por causa do padrão
+	width: 33.3333%;/*não funciona com div center por causa do padrão
 	de 1280px*/
 	padding: 30px;
  }
@@ -257,5 +255,49 @@ html,body{
  	margin-top: 5px;
  } 
 
+/* RESPONSIVE */
 
+@media screen and ( max-width: 1024px ) {
+	.header{	
+		height: auto;
+		width: 100%;
+		text-align: center;
+		padding: 15px 0 ;	
+	 }
+
+	 .header img{
+		margin: 0;
+	 }
+	 
+	 .container-banner{
+		text-align: center;
+		width: 100%;
+		height: auto;
+		padding: 40% 2%;
+		
+	}
+
+	 .form{
+		margin-top:30px;
+		padding:15px ;
+		display: inline-block;
+		max-width: 400px;
+		width: 90%;
+		height: 100%;
+		float:none;
+		margin-right: 60px ;
+		top:0;/*metade de 30px*/
+ }
+
+	.container-list{
+		margin-top: 0;
+		max-width: 500px;
+		width: 90%;
+		height: auto;
+		float: none; 
+		padding: 30px 0;
+		display: inline-block;
+	}
+
+}
 
