@@ -63,12 +63,12 @@ html,body{
 /*  CAIXINHA ONDE VAI O FORMULÁRIO */
 
  .form{
-		padding:15px ;
+		padding:10px ;
 		width: 400px;
 		height: calc(100% + 30px);
 		background-color: white;
 		float:right;
-		margin-right: 60px ;
+		/* margin-right: 60px ; */
 		position: relative;
 		top: -15px;/*metade de 30px*/
 		border: 10px solid rgba(103, 68, 158, 0.6);
@@ -76,23 +76,6 @@ html,body{
 		DA MARGEM DA BOX BASEANDO NO PADDING DO FORM*/
 
  }
-
-/* 	OQUE ELE COLOCOU (no form dele) 
-
- .form{
-	padding: 10px;
-	width: 400px;
-	height: calc(100% + 30px);
-	float: right;
-	position: relative;
-	top: -15px;
-	border-width: 12px;
-	border-color: rgba(120, 120, 120, 0.5);
-	border-style: solid;
-	background-color: white;
-	background-clip: padding-box;
- }
-*/
 
 /*  TEXTO ACIMA DO FORM */
 
@@ -132,7 +115,7 @@ html,body{
 
  .form .input-submit{
 	text-align: center;
- } /*se não tiver PONTO nesse ele não funciona, nsei*/
+ } /*se não tiver PONTO nesse ele não funciona*/
 
  /* ESTILIZANDO O BOTÃO */
  
@@ -255,7 +238,7 @@ html,body{
  	margin-top: 5px;
  } 
 
-/* RESPONSIVE */
+ /* RESPONSIVE */
 
 @media screen and ( max-width: 1024px ) {
 	.header{	
@@ -274,30 +257,63 @@ html,body{
 		width: 100%;
 		height: auto;
 		padding: 40% 2%;
-		
 	}
 
 	 .form{
-		margin-top:30px;
 		padding:15px ;
 		display: inline-block;
 		max-width: 400px;
 		width: 90%;
 		height: 100%;
-		float:none;
+		float: right ;
 		margin-right: 60px ;
 		top:0;/*metade de 30px*/
- }
+    }
 
 	.container-list{
-		margin-top: 0;
 		max-width: 500px;
-		width: 90%;
+		width: 40%;
 		height: auto;
-		float: none; 
+		float: left; 
 		padding: 30px 0;
 		display: inline-block;
 	}
 
-}
+	.input-container input[type=text] , input[type=E-mail]{
+		width: 100%;
+		height: 55px;
+    } 
 
+	 .form input[type=submit]{
+		max-width: 280px;
+		width: 100%;
+		height: 56px;
+	 }
+
+
+	}
+
+	@media screen and (max-width:768px;) {
+		.conteiner-list{
+			margin-top: 0;
+			float: none;
+			display: inline-block;
+			width: 100%;
+		}
+
+		.form{ 
+			margin-top: 30px;
+			float: none;
+			display: inline-block;
+			width: 90%;
+		}
+
+		.container-single{
+			float: none;
+			display: inline-block;
+			width: 100%;
+			max-width: 600px;
+			padding: 30px 0;
+		 }
+		
+	}
