@@ -1,8 +1,9 @@
 <h2> Organized soon </h2>
 
 
-  ˑI'm stuyin' Front-end.
-
+  *I'm stuyin' Front-end.
+  *It's my first project
+  
 ### The project:
 <p>It's a home page about a content with a incrition. (who doesen't works)</p>
 
