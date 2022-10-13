@@ -5,6 +5,16 @@
   <br>
   ˑEu vou atualizar o código conforme eu adiquiro mais conhecimento.
 
+### The project:
+
+![image](https://user-images.githubusercontent.com/111650699/195502658-d69d8974-0880-481f-9e10-60791a09b34b.png)
+![image](https://user-images.githubusercontent.com/111650699/195502683-d00ebc08-d24c-4480-bcaa-47c0218ff9a8.png)
+![image](https://user-images.githubusercontent.com/111650699/195502705-636a8761-a5f3-4d68-8a82-ffa44b254e84.png)
+![image](https://user-images.githubusercontent.com/111650699/195502725-1f5216a8-ce7a-4251-ba11-6b09a257eb6d.png)
+
+<h2>Ps: There's some problems in responsive, i'll solve them soon</h2>
+
+
 ### 26/09/2022 add "Project_1":
 * No responsive.
 * No html5.
