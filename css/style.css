@@ -259,22 +259,22 @@ html,body{
 		padding: 40% 2%;
 	}
 
-	 .form{
-		padding:15px ;
+	 .form { 
+		padding: 15px ;
 		display: inline-block;
 		max-width: 400px;
 		width: 90%;
 		height: 100%;
-		float: right ;
+		float: none ;
 		margin-right: 60px ;
-		top:0;/*metade de 30px*/
-    }
+	 	top:0;/*metade de 30px*/
+        }
 
 	.container-list{
 		max-width: 500px;
 		width: 40%;
 		height: auto;
-		float: left; 
+		float: none ; 
 		padding: 30px 0;
 		display: inline-block;
 	}
@@ -293,7 +293,7 @@ html,body{
 
 	}
 
-	@media screen and (max-width:768px;) {
+	@media screen and (max-width:768px) {
 		.conteiner-list{
 			margin-top: 0;
 			float: none;
@@ -314,6 +314,5 @@ html,body{
 			width: 100%;
 			max-width: 600px;
 			padding: 30px 0;
-		 }
-		
-	}
+		 } 
+		}
