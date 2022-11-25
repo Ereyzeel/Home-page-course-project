@@ -13,11 +13,3 @@
 ![image](https://user-images.githubusercontent.com/111650699/195502725-1f5216a8-ce7a-4251-ba11-6b09a257eb6d.png)
 
 <h2>Ps: There's some problems in responsive, i'll solve them soon</h2>
-
-
-### 26/09/2022 add "Project_1":
-* No responsive.
-* No html5.
-
-### 02/10/2022 commit "Project_1":
-* I change style.css and index.html for responsive.
