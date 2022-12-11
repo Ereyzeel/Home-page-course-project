@@ -9,15 +9,7 @@ html,body{
 	height: 100%;
 }
 
- /*     NO RESPONSIVE (por agora)    */
-
-/*@font-face{
-	src:url('../fonts/OpenSans-Light.ttf');
-	font-family: Courier New;
- }
-*/
-
-/*  USANDO NA MAIORIA DAS DIVS */
+ 
 
  .center{
 	max-width: 1280px;
@@ -29,7 +21,6 @@ html,body{
 	clear: both;
  }
 
-/*  HEADER / MENU */
 
  .header{
 	width: 100%;
@@ -37,13 +28,11 @@ html,body{
 	padding: 0 2% ;
 	background-color: #956ad9;	
  }
- /* LOGO HEADER */
+
 
  .header img{
 	margin: 19px;
  }
-
-/*  LISTA  */
 
  .container-banner{
 	width: 100%;
@@ -54,13 +43,10 @@ html,body{
 	background-position: center;
  }
 
-/*  BANNER BACKGROUND */
-
  .container-banner > .center{
 	height: 100%;
  }
 
-/*  CAIXINHA ONDE VAI O FORMULÁRIO */
 
  .form{
 		padding:10px ;
@@ -77,21 +63,15 @@ html,body{
 
  }
 
-/*  TEXTO ACIMA DO FORM */
-
  .form h2{
 	color: #36115c;
 	font-weight: normal;
 	font-size: 25px;
  }
 
-/*  CONTAINER DE CADA TÓPICO  */
-
  .input-container{
 	margin-top: 20px;
  }
-
-/*  ESTILO DO TEXTO DO FORM */
 
  .input-container span{
 	display: inline-block;
@@ -100,28 +80,19 @@ html,body{
 	color: #9761cf;
  }
 
-/*  CAIXA PARA ESCREVER */
-
  .input-container input[type=text] , input[type=E-mail]{
 	width: 334px;
 	height: 55px;
 	border: 1px solid black;
-	outline-style: none; /*tirar a borda preta 
-	quando clicar no input*/
+	outline-style: none;
 	margin-top: 8px;
  }
 
-/*  BOTÃO ENVIAR  */
-
  .form .input-submit{
 	text-align: center;
- } /*se não tiver PONTO nesse ele não funciona*/
-
- /* ESTILIZANDO O BOTÃO */
+ } 
  
  .form input[type=submit]{
-    /*outline-style: none;
-    border-style: none;*/
     background-color: #A062E3;
     display: inline-block;
     color: #602e94;
@@ -133,8 +104,6 @@ html,body{
     cursor: pointer; /* mudaou o cursor */
  }
 
-/*  LISTA (CAIXINHA DO LADO) */
-
  .container-list{
 	width: 619px;
 	height: 270px;
@@ -144,8 +113,6 @@ html,body{
 	padding: 30px;
  }
 
- /*  POR PADRÃO A LISTA FICA PRA FORA (AJEITANDO ABAIXO) */
-
  .container-list ul{
 	list-style-position: inside;	
  }
@@ -154,8 +121,6 @@ html,body{
 	color: white;
 	margin-top: 18px;
  }
-
-/*  PARÁGRAFO SEÇÃO2 */
 
  .container-2{
 	padding: 40px 2%;
@@ -172,12 +137,9 @@ html,body{
 	width: 100%;
 	max-width: 768px;
 	margin:15px 0 ;
-	display: inline-block; /*senão ele fica no canto
-	do padding*/
-	text-align: justify; /* fica retinho nos cantos */
+	display: inline-block; 
+	text-align: justify; 
  }
-
-/*  SETA PARA BAIXO */
 
  .arrow{
 	width:50px;
@@ -185,12 +147,10 @@ html,body{
 	background-image: url('../images/arrow.png');
 	background-size: 100% 100%;
 	position: relative;
-	top: 65px; /*alinhei na metade linha */
-	left: 50% ;/*centro + margin-left: -20px;*/
+	top: 65px; 
+	left: 50% ;
 	margin-left: -20px;
  }
-
-/*  TRÊS ÍCONES */
 
  .section-1{
 	padding:90px 2%;
@@ -209,8 +169,7 @@ html,body{
 
  .container-single{
 	float: left;
-	width: 33.3333%;/*não funciona com div center por causa do padrão
-	de 1280px*/
+	width: 33.3333%;
 	padding: 30px;
  }
 
@@ -224,8 +183,6 @@ html,body{
 	width: 70px;
  }
 
-/*  FOOTER */
-
  .rodape{
  	/*clear: both; (quando usa o float colocar isso)*/
  	padding: 30px 0;
@@ -237,8 +194,6 @@ html,body{
  .div footer , p{
  	margin-top: 5px;
  } 
-
- /* RESPONSIVE */
 
 @media screen and ( max-width: 1024px ) {
 	.header{	
@@ -267,7 +222,7 @@ html,body{
 		height: 100%;
 		float: none ;
 		margin-right: 60px ;
-	 	top:0;/*metade de 30px*/
+	 	top:0;
         }
 
 	.container-list{
