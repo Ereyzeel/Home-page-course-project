@@ -1,11 +1,10 @@
 <h2> Organized soon </h2>
 
 
-* I'm stuyin' Front-end.
-* It's my first project
+
+* First project
   
 ### The project:
-<p>It's a home page about a content with a incrition. (who doesen't works)</p>
 
 ![image](https://user-images.githubusercontent.com/111650699/195502658-d69d8974-0880-481f-9e10-60791a09b34b.png)
 ![image](https://user-images.githubusercontent.com/111650699/195502683-d00ebc08-d24c-4480-bcaa-47c0218ff9a8.png)
